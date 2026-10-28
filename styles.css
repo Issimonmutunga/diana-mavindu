@@ -252,6 +252,12 @@ mark {
   overflow-wrap: anywhere; transition: color .2s;
 }
 .contact__mail:hover { color: var(--clay); }
+.contact__phone {
+  display: block; width: fit-content; margin-bottom: 20px;
+  font-family: var(--mono); font-size: clamp(.95rem, 2vw, 1.1rem); letter-spacing: .02em;
+  text-decoration: none; color: var(--ink-2); transition: color .2s;
+}
+.contact__phone:hover { color: var(--clay); }
 
 /* footer */
 .foot { border-top: 1px solid var(--line); padding: 28px 0; font-size: .85rem; color: var(--ink-3); }
